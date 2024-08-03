@@ -7,7 +7,6 @@ import { auth } from '../config/Firebase';
 import useAuth from '../hooks/useAuth';
 
 const HomePage = () => {
-  const [name, setName] = useState('Joe');
   const { navigate } = useNavigation();
   const { user } = useAuth();
 

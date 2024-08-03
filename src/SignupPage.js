@@ -31,11 +31,6 @@ const SignupPage = () => {
             behavior='position'
             keyboardVerticalOffset={keyboardVerticalOffset} >
             <StatusBar style="light" />
-            {/* <View style={styles.topview}>
-                <Image source={require("../Images/Rectangle50.png")} style={styles.line1} />
-                <Image source={require("../Images/Group.png")} />
-                <Image source={require("../Images/Rectangle51.png")} style={styles.line1} />
-            </View> */}
             <View>
                 <Text style={styles.welcome}>WELCOME</Text>
             </View>
